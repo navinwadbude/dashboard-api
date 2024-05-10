@@ -38,4 +38,4 @@ const UserModel = new Schmea(
     }
 )
 
-module.exports = mongoose.model('users', UserModel);
+module.exports = mongoose.model('users1', UserModel);
