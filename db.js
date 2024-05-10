@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbHOST = process.env.DBHOST;
+const dbHOST = process.env.CONNECTION_STRING;
 
 mongoose.connect(dbHOST)
     .then(() => {
